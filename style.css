@@ -1,11 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
 }
 
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+}
+
 .top-bar {
   background: #FF6600;
 }
+
+.options {
+  flex-direction: column;
+}
+
+
 
 .shipping {
   text-transform: uppercase;
@@ -21,7 +44,11 @@ body {
 }
 
 .images {
+  width: 50%;
+}
 
+.squares {
+  width: 25%;
 }
 
 .story {
