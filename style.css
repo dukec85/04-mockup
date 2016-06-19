@@ -28,8 +28,6 @@ ul {
 
 }
 
-
-
 .shipping {
   text-transform: uppercase;
   background: #B8B8B8;
@@ -49,11 +47,24 @@ ul {
 }
 
 .images {
-  width: 50%;
+  width: 40%;
+  display: flex;
+}
+
+.better {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  background: #F5F5F5;
 }
 
 .squares {
-  width: 25%;
+  width: 30%;
+}
+
+.other {
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .story {
