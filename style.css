@@ -98,9 +98,13 @@ ul {
 }
 
 .links {
+  flex-direction: row;
+}
 
+.small-box {
+  width: 75%;
 }
 
 .footer {
-
+  flex-direction: column;
 }
