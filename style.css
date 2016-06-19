@@ -25,7 +25,7 @@ ul {
 }
 
 .options {
-  flex-direction: column;
+
 }
 
 
@@ -36,11 +36,16 @@ ul {
 }
 
 .menu {
-
+  display: flex;
 }
 
 .ties {
+  background: #F5F5F5;
+  flex-direction: column;
+}
 
+.tie-image {
+  width: 75%;
 }
 
 .images {
