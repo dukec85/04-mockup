@@ -26,6 +26,8 @@ ul {
 
 .options {
   text-align: center;
+  font-size: 1.5rem;
+  margin: 1%;
 }
 
 .shipping {
@@ -106,5 +108,5 @@ ul {
 }
 
 .footer {
-  flex-direction: column;
+  flex-direction: row;
 }
