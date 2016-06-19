@@ -25,12 +25,22 @@ ul {
 }
 
 .options {
-
+  text-align: center;
 }
 
 .shipping {
+  color: white;
+  font-size: 1rem;
   text-transform: uppercase;
   background: #B8B8B8;
+  margin: 0.1%;
+}
+
+.order {
+  color: white;
+  font-size: 1rem;
+  margin: 0.1%;
+  flex-direction: column;
 }
 
 .menu {
@@ -51,6 +61,14 @@ ul {
   display: flex;
 }
 
+.text {
+  margin-left: 20%;
+}
+
+.tie-text {
+  margin-left: 10%;
+}
+
 .better {
   font-size: 3rem;
   text-align: center;
@@ -68,7 +86,15 @@ ul {
 }
 
 .story {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}
 
+.blue {
+  color: blue;
+  font-size: 0.8rem;
+  font-style: normal;
 }
 
 .links {
