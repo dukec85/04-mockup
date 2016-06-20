@@ -26,10 +26,12 @@ ul {
 
 .options {
   display: flex;
-  flex-direction: row;
-  text-align: center;
   font-size: 1.5rem;
   margin: 1%;
+}
+
+.options-item {
+  margin: 2%;
 }
 
 .shipping {
@@ -48,8 +50,50 @@ ul {
   flex-direction: column;
 }
 
+.sign {
+  display: flex;
+  flex-direction: row;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
 .menu {
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.bars-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.bars {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  border: solid grey;
+  padding 0.5rem;
+  border-top:
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  border: solid grey;
+  padding: 0.5rem;
 }
 
 .ties {
@@ -129,6 +173,17 @@ ul {
   font-size: 0.8rem;
 }
 
+.email {
+  border: solid;
+}
+
+.subscribe{
+  color: white;
+  background: #00aced;
+  padding: 0.005rem;
+  width: 6.5rem;
+}
+
 .footer {
   display: flex;
   width: 100%;
@@ -145,4 +200,14 @@ ul {
 
 .contact {
   background: #00aced;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-parent {
+  width: 20%;
+}
+
+.image {
+  width: 100%;
 }
