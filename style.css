@@ -25,6 +25,8 @@ ul {
 }
 
 .options {
+  display: flex;
+  flex-direction: row;
   text-align: center;
   font-size: 1.5rem;
   margin: 1%;
@@ -34,8 +36,9 @@ ul {
   color: white;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #B8B8B8;
-  margin: 0.1%;
+  background: #D80000;
+  margin: 0.5%;
+  padding: 0.5%;
 }
 
 .order {
@@ -79,11 +82,14 @@ ul {
 }
 
 .squares {
-  width: 60%;
+  width: 100%;
 }
 
 .middle {
   background: #F5F5F5;
+  margin: 1%;
+  text-align: right;
+  padding: 1%;
 }
 
 .other {
@@ -104,14 +110,23 @@ ul {
   font-style: normal;
 }
 
+.blue-style {
+  color: blue;
+}
+
 .links {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
+  margin: 1%;
 }
 
 .small-box {
-  width: 75%;
+  width: 80%;
+}
+
+.small-text {
+  font-size: 0.8rem;
 }
 
 .footer {
@@ -120,4 +135,14 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-end;
+  background: #F5F5F5;
+}
+
+.info {
+  background: #A8A8A8;
+  color: white;
+}
+
+.contact {
+  background: #00aced;
 }
