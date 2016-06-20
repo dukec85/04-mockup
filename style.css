@@ -20,6 +20,14 @@ ul {
   display: flex;
 }
 
+.container-top {
+    width: 75%;
+    max-width: 60rem;
+    margin: 0;
+    overflow: auto;
+    display: flex;
+}
+
 .top-bar {
   background: #FF6600;
 }
@@ -50,6 +58,11 @@ ul {
   flex-direction: column;
 }
 
+.menu-bg {
+  display: flex;
+  flex-direction: row;
+}
+
 .sign {
   display: flex;
   flex-direction: row;
@@ -70,18 +83,22 @@ ul {
 
 .bars-parent {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  width: 20%;
 }
 
 .bars {
   display: flex;
   align-items: center;
   padding: 0.1rem;
+  width: 100%;
 }
 
 .cart {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 2%;
   border: solid grey;
   padding 0.5rem;
@@ -91,6 +108,7 @@ ul {
 .search {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 2%;
   border: solid grey;
   padding: 0.5rem;
