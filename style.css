@@ -83,11 +83,10 @@ ul {
 }
 
 .middle {
-
+  background: #F5F5F5;
 }
 
 .other {
-  background: #F5F5F5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -117,6 +116,7 @@ ul {
 
 .footer {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-content: flex-end;
