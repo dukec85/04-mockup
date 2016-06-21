@@ -139,9 +139,13 @@ ul {
 }
 
 .better {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-size: 3rem;
+  font-style: oblique;
   text-align: center;
-  margin: 0;
+  margin: 0 20%;
   background: #F5F5F5;
 }
 
@@ -151,7 +155,7 @@ ul {
 
 .middle {
   background: #F5F5F5;
-  margin: 1%;
+  margin: 3%;
   text-align: right;
   padding: 1%;
 }
@@ -166,6 +170,10 @@ ul {
   font-size: 1.5rem;
   font-style: italic;
   text-align: center;
+}
+
+.story-box {
+  margin: 5%;
 }
 
 .blue {
@@ -221,21 +229,25 @@ ul {
   justify-content: space-between;
   align-content: flex-end;
   background: #F5F5F5;
+  margin: 5% 0 0;
 }
 
 .info {
   background: #A8A8A8;
   color: white;
+  width: 40%;
 }
 
-.contact-button; {
+.contact-button {
   margin: 0;
+  width: 25%;
 }
 
 .contact {
   background: #00aced;
+  margin: 5% 5%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .image-parent {
