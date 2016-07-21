@@ -66,6 +66,8 @@ ul {
 .sign {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
   flex-wrap: nowrap;
   width: 30%;
 }
@@ -73,6 +75,8 @@ ul {
 .space {
   display: flex;
   flex-direction: row;
+  color: grey;
+  font-size: 0.9rem;
   margin: 5%;
 }
 
@@ -103,8 +107,8 @@ ul {
   align-items: center;
   margin: 2%;
   border: solid grey;
-  padding 0;
-  border-top:
+  border-width: 0.1rem;
+  padding 0 5%;
 }
 
 .search {
@@ -112,8 +116,29 @@ ul {
   flex-direction: row;
   align-items: center;
   margin: 2%;
+  padding: 0 5% 0 0;
   border: solid grey;
-  padding: 0;
+  border-width: 0.1rem;
+}
+
+.cart-elm {
+  margin: 1%;
+}
+
+.fa-search {
+  color: grey;
+}
+
+.zero {
+  text-shadow: grey;
+}
+
+.search-elm {
+  margin: 5%;
+}
+
+.text-grey {
+  color: grey;
 }
 
 .ties {
