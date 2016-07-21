@@ -14,7 +14,7 @@ ul {
 
 .container {
   width: 100%;
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
   overflow: auto;
   display: flex;
@@ -22,7 +22,7 @@ ul {
 
 .container-top {
     width: 75%;
-    max-width: 60rem;
+    max-width: 70rem;
     margin: 0;
     overflow: auto;
     display: flex;
@@ -69,6 +69,7 @@ ul {
   justify-content: flex-end;
   text-align: right;
   flex-wrap: nowrap;
+  margin-left: 25%;
   width: 30%;
 }
 
@@ -197,18 +198,22 @@ ul {
   text-align: center;
 }
 
+.history {
+  font-weight: lighter;
+}
+
 .story-box {
   margin: 5%;
 }
 
 .blue {
-  color: blue;
-  font-size: 0.8rem;
+  color: #6666ff;
+  font-size: 1rem;
   font-style: normal;
 }
 
 .blue-style {
-  color: blue;
+  color: #6666ff;
 }
 
 .links {
@@ -233,46 +238,112 @@ ul {
 }
 
 .icons {
-  width: 50%;
+  width: 10%;
 }
 
 .email {
-  border: solid;
+  font-weight: lighter;
+  color: grey;
+  border: solid grey;
+  border-width: 0.1rem;
+  padding: 3% 0;
 }
 
 .subscribe{
   color: white;
-  background: #00aced;
-  padding: 0.005rem;
+  background: #3498db;
+  padding: 0.3rem 0.1rem;
   width: 6.5rem;
 }
 
-.footer {
+.bottom-container {
   display: flex;
   width: 100%;
-  flex-direction: row;
+  max-width: 100rem;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.footer {
+  width: 100%;
+  max-width: 100rem;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-content: flex-end;
+  align-content: center;
   background: #F5F5F5;
-  margin: 5% 0 0;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  margin: 1%;
+}
+
+.fa-twitter {
+  color: white;
+  border-style: solid #00aced;
+  background-color: #00aced;
+  border-width: thick;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+.fa-pinterest-p {
+  color: white;
+  border-style: solid #cb2027;
+  background-color: #cb2027;
+  border-width: thick;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.fa-facebook {
+  color: white;
+  border-style: solid #3b5998;
+  background-color: #3b5998;
+  border-width: thick;
+  border-radius: 50%;
+  padding: 12%;
 }
 
 .info {
   background: #A8A8A8;
   color: white;
-  width: 40%;
+  font-weight: lighter;
+  font-family: serif;
+  width: 25%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  padding-left: 3%;
 }
 
 .contact-button {
-  margin: 0;
-  width: 25%;
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-right: 3%;
+  width: 40%;
+  padding-bottom: 5%;
 }
 
 .contact {
-  background: #00aced;
-  margin: 5% 5%;
   display: flex;
+  flex-direction: row;
+  background: #3498db;
+  margin: 2% 5%;
   justify-content: center;
+  padding: 10% 0;
+}
+
+.here {
+  font-size: 1.7rem;
 }
 
 .image-parent {
@@ -281,4 +352,29 @@ ul {
 
 .image {
   width: 100%;
+}
+
+.lower-footer {
+  display: grid;
+  max-width: 100rem;
+  width: 100%;
+  background: #f5f5f5;
+  position: inherit;
+}
+
+.rights-container {
+  background: #F5F5F5;
+  max-width: 70rem;
+  margin: 0;
+}
+
+.rights {
+  display: flex;
+  flex-direction: row;
+  background: #F5F5F5;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 1rem 0 1rem 0.5rem;
+  text-align: left;
+  margin: 1rem 0;
+  max-width: 70rem;
 }
